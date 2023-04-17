@@ -778,91 +778,126 @@
           <option value="Zimbabwe">Zimbabwe</option>
         </select>
         <h3 style="color: white">Certification</h3>
-          <label for="OPITO_Bosiet_HUET_FOET_Y_N">Do you hold a OPITO Bosiet/HUET/FUET?</label>
-          <div class="radio-group">
-            <input
-              type="radio"
-              id="yes_bosiet"
-              name="OPITO_Bosiet_HUET_FOET"
-              value="Yes"
-              required
-            />
-            <label for="yes_bosiet">Yes</label>
-            <input
-              type="radio"
-              id="no_bosiet"
-              name="OPITO_Bosiet_HUET_FOET"
-              value="No"
-              required
-        />
-            <label for="no_bosiet">No</label>
-          </div>
-        <label for="Bosiet/HUET/FOET Expiry Date"
-          >OPITO Bosiet/HUET/FOET Expiry Date:</label
-        >
+        <label for="opito_bosiet">Do you hold a OPITO Bosiet/HUET/FUET?</label>
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_opito_bosiet"
+            name="opito_bosiet"
+            value="Yes"
+            required
+          />
+          <label for="yes_opito_bosiet"
+            >Yes, <em>provide expiry date</em></label
+          >
+          <input
+            type="radio"
+            id="no_opito_bosiet"
+            name="opito_bosiet"
+            value="No"
+            required
+          />
+          <label for="no_opito_bosiet">No</label>
+        </div>
+        <br />
         <input
           type="date"
-          name="Bosiet/HUET/FOET Expiry Date"
-          id="Bosiet/HUET/FOET Expiry Date"
+          name="opito_bosiet_expiry"
+          id="opito_bosiet_expiry"
+          placeholder="OPITO Bosiet/HUET/FUET Expiry"
         />
-        <label for="GWO_SeaSurvival_Y_N">Do you hold a GWO Sea Survival?</label>
-          <div class="radio-group">
-            <input
-              type="radio"
-              id="yes_gwo_sea_survival"
-              name="yes_gwo_sea_survival"
-              value="Yes"
-              required
-            />
-            <label for="yes_bosiet">Yes</label>
-            <input
-              type="radio"
-              id="no_gwo_sea_survival"
-              name="No_gwo_sea_survival"
-              value="No"
-              required/>
-            <label for="no_SeaSurvival">No</label>
-            </div>
-        <label for="GWO Sea Survival Expiry Date"
-          >GWO Sea Survival Expiry Date:</label
-        >
+        <label for="gwo_sea_survival">Do you hold a GWO Sea Survival?</label>
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_gwo_sea_survival"
+            name="gwo_sea_survival"
+            value="Yes"
+            required
+          />
+          <label for="yes_gwo_sea_survival"
+            >Yes, <em>provide expiry date</em></label
+          >
+          <input
+            type="radio"
+            id="no_gwo_sea_survival"
+            name="gwo_sea_survival"
+            value="No"
+            required
+          />
+          <label for="no_gwo_sea_survival">No</label>
+        </div>
+        <br />
         <input
           type="date"
-          name="GWO_Sea_Survival_ExpiryDate"
-          id="GWO_Sea_Survival_ExpiryDate"
+          name="gwo_sea_survival_expiry"
+          id="gwo_sea_survival_expiry"
+          placeholder="GWO Sea Survival Expiry"
         />
-        <label for="GWO_WorkingAtHeights_Y_N">Do you hold a GWO Working at Heights?</label>
-          <div class="radio-group">
-            <input
-              type="radio"
-              id="yes_gwo_working_at_heights"
-              name="yes_gwo_working_at_heights"
-              value="Yes"
-              required
-            />
-            <label for="yes_gwo_working_at_heights">Yes</label>
-            <input
-              type="radio"
-              id="no_gwo_working_at_heights"
-              name="no_gwo_working_at_heights"
-              value="No"
-              required/>
-            <label for="no_gwo_working_at_heights">No</label>
-            </div>
-        <label for="GWO Working at Heights Date"
-          >GWO Working at Heights Expiry Date:</label
+        <label for="gwo_working_heights"
+          >Do you hold a GWO Working at Heights?</label
         >
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_gwo_working_heights"
+            name="gwo_working_heights"
+            value="Yes"
+            required
+          />
+          <label for="yes_gwo_working_heights"
+            >Yes, <em>provide expiry date</em></label
+          >
+          <input
+            type="radio"
+            id="no_gwo_working_heights"
+            name="gwo_working_heights"
+            value="No"
+            required
+          />
+          <label for="no_gwo_working_heights">No</label>
+        </div>
+        <br />
         <input
           type="date"
-          name="GWO_Working_at_Heights_Expiry_Date"
-          id="GWO_Working_at_Heights_Expiry_Date"
+          name="gwo_working_heights_expiry"
+          id="gwo_working_heights_expiry"
+          placeholder="GWO Working at Heights Expiry"
+        />
+        <label for="gwo_manual_handling"
+          >Do you hold a GWO Manual Handling?</label
+        >
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_gwo_manual_handling"
+            name="gwo_manual_handling"
+            value="Yes"
+            required
+          />
+          <label for="yes_gwo_manual_handling"
+            >Yes, <em>provide expiry date</em></label
+          >
+          <input
+            type="radio"
+            id="no_gwo_manual_handling"
+            name="gwo_manual_handling"
+            value="No"
+            required
+          />
+          <label for="no_gwo_manual_handling">No</label>
+        </div>
+        <br />
+        <input
+          type="date"
+          name="gwo_manual_handling_expiry"
+          id="gwo_manual_handling_expiry"
+          placeholder="GWO Manual Handling Expiry"
         />
         <label for="*Required fields"><em>* Required fields</em></label>
         <br />
         <h4>
-          Upon arriving at the vessel, kindly make your way to the bridge to
-          undergo your vessel induction and complete the required documentation.
-          The bridge team will also assign your cabin.
+          UUpon arrival at the vessel, please proceed to the bridge to receive your vessel induction and complete the necessary paperwork. The bridge team will also assign your cabin.
         </h4>
         <input type="submit" value="Submit" style="height: auto" />
         <br />

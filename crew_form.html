@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>APOLLO Registration CREW</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="fixed-top-bar">
@@ -23,23 +23,60 @@
           details is greatly appreciated.
         </h4>
         <h3 style="color: white">Personal Details</h3>
-        <label for="surname">Surname(s) <em>(As appears on passport)</em>: *</label>
-        <input type="text" name="Surname" id="surname" placeholder="Surnames" required />
-        <label for="firstname">First Name(s) <em>(As appears on passport)</em>: *</label>
-        <input type="text" name="Firstname" id="firstname" placeholder="First Names" required />
+        <label for="surname"
+          >Surname(s) <em>(As appears on passport)</em>: *</label
+        >
+        <input
+          type="text"
+          name="Surname"
+          id="surname"
+          placeholder="Surnames"
+          required
+        />
+        <label for="firstname"
+          >First Name(s) <em>(As appears on passport)</em>: *</label
+        >
+        <input
+          type="text"
+          name="Firstname"
+          id="firstname"
+          placeholder="First Names"
+          required
+        />
         <label for="date_of_birth">Date of Birth: *</label>
-        <input type="date" name="Date_of_birth" id="date_of_birth" placeholder="Date of Birth" required />
+        <input
+          type="date"
+          name="Date_of_birth"
+          id="date_of_birth"
+          placeholder="Date of Birth"
+          required
+        />
         <label for="place_of_birth">Place of Birth: *</label>
-        <input type="text" name="Place_of_birth" id="place_of_birth" placeholder="Place of Birth" required />
+        <input
+          type="text"
+          name="Place_of_birth"
+          id="place_of_birth"
+          placeholder="Place of Birth"
+          required
+        />
         <label for="Gender">Gender: *</label>
         <select name="Gender" id="Gender" required>
-          <option value="" disabled selected>--Please choose an option--</option>
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
           <option value="male">Male</option>
           <option value="female">Female</option>
         </select>
         <label for="nationality">Nationality: *</label>
-        <select name="Nationality" id="Nationality" placeholder="Nationality" required>
-          <option value="" disabled selected>--Please choose an option--</option>
+        <select
+          name="Nationality"
+          id="Nationality"
+          placeholder="Nationality"
+          required
+        >
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
           <option value="Afghanistan">Afghanistan</option>
           <option value="Albania">Albania</option>
           <option value="Algeria">Algeria</option>
@@ -268,8 +305,14 @@
         <label for="passport_issuing_country"
           >Passport Issuing Country: *</label
         >
-        <select name="passport-issuing-country" id="passport-issuing-country" required>
-          <option value="" disabled selected>--Please choose an option--</option>
+        <select
+          name="passport-issuing-country"
+          id="passport-issuing-country"
+          required
+        >
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
           <option value="Afghanistan">Afghanistan</option>
           <option value="Albania">Albania</option>
           <option value="Algeria">Algeria</option>
@@ -491,7 +534,9 @@
         />
         <label for="function_on_board">Function on board: *</label>
         <select name="function_on_board" id="function_on_board" required>
-          <option value="" disabled selected>--Please choose an option--</option>
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
           <option value="Master">Master</option>
           <option value="Chief Officer">Chief Officer</option>
           <option value="Second Officer">Second Officer</option>
@@ -526,7 +571,9 @@
         />
         <label for="first time on APOLLO">First time on APOLLO: *</label>
         <select name="first time on APOLLO" id="first time on APOLLO" required>
-          <option value="" disabled selected>--Please choose an option--</option>
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select>
@@ -534,7 +581,9 @@
           >Medical condition or prescribed medicines?: *</label
         >
         <select name="prescribed_medicines" id="prescribed_medicines" required>
-          <option value="" disabled selected>--Please choose an option--</option>
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
           <option value="yes">
             Yes, <em>(Report to medical officer on board)</em>
           </option>
@@ -543,9 +592,15 @@
 
         <label for="Company">Company <em>(Type of contract)</em>: * </label>
         <select name="Company" id="Company" required>
-          <option value="" disabled selected>--Please choose an option--</option>
-          <option value="Baggerwerken DeCloedt PC 200">Baggerwerken DeCloedt PC 200</option>
-          <option value="Deme Offshore BE/BCD/DI Koopvaardij 136">Deme Offshore BE/BDC/DI Koopvaardij 136</option>
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
+          <option value="Baggerwerken DeCloedt PC 200">
+            Baggerwerken DeCloedt PC 200
+          </option>
+          <option value="Deme Offshore BE/BCD/DI Koopvaardij 136">
+            Deme Offshore BE/BDC/DI Koopvaardij 136
+          </option>
           <option value="BDC/DI Bouw 124">BDC/DI Bouw PC 124</option>
           <option value="Deme Offshore NL">Deme Offshore NL</option>
           <option value="Deme Offshore NL">DI Cyprus Ltd.</option>
@@ -557,7 +612,12 @@
           <option value="Other Contract">Other, (fill in below)</option>
         </select>
         <br />
-        <input type="text" name="other contract" id="other contract" placeholder="Other contract" />
+        <input
+          type="text"
+          name="other contract"
+          id="other contract"
+          placeholder="Other contract"
+        />
         <label for="Deme_Employee_Number">Deme Employee Number:</label>
         <input
           type="text"
@@ -566,9 +626,20 @@
           placeholder="Deme Employee Number"
         />
         <label for="phone number">Phone Number:</label>
-        <input type="tel" name="phone number" id="phone number" placeholder="Phone Number" />
+        <input
+          type="tel"
+          name="phone number"
+          id="phone number"
+          placeholder="Phone Number"
+        />
         <label for="email">Email: *</label>
-        <input type="email" name="email" id="email" placeholder="Email" required />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
         <h3 style="color: white">Next of Kin</h3>
         <label for="next_of_kin_surname">Surname: *</label>
         <input
@@ -603,20 +674,37 @@
           required
         />
         <label for="mobile_phone">Mobile Phone:</label>
-        <input type="tel" name="mobile_phone" id="mobile_phone" placeholder="Mobile Phone"/>
+        <input
+          type="tel"
+          name="mobile_phone"
+          id="mobile_phone"
+          placeholder="Mobile Phone"
+        />
 
         <label for="street_and_number">Street + Number:</label>
-        <input type="text" name="street_and_number" id="street_and_number" placeholder="Street and Number" />
+        <input
+          type="text"
+          name="street_and_number"
+          id="street_and_number"
+          placeholder="Street and Number"
+        />
 
         <label for="postal_code">Postal Code:</label>
-        <input type="text" name="postal_code" id="postal_code" placeholder="Postal Code" />
+        <input
+          type="text"
+          name="postal_code"
+          id="postal_code"
+          placeholder="Postal Code"
+        />
 
         <label for="city">City:</label>
         <input type="text" name="city" id="city" placeholder="City" />
 
         <label for="country">Country: *</label>
         <select name="NextOfKin_country" id="NextOfKin_country" required>
-          <option value="" disabled selected>--Please choose an option--</option>
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
           <option value="Afghanistan">Afghanistan</option>
           <option value="Albania">Albania</option>
           <option value="Algeria">Algeria</option>
@@ -828,31 +916,117 @@
         </select>
         <h3 style="color: white">Certification</h3>
         <label for="seamans_book">Do you hold a Luxembourg Seamans book?</label>
-<div class="radio-group">
-    <input type="radio" id="yes" name="LUX_seamans_book" value="Yes" required>
-    <label for="yes">Yes</label>
-    <input type="radio" id="no" name="LUX_seamans_book" value="No" required>
-    <label for="no">No</label>
-</div>
-        <label for="seamans_book_number">Luxembourg Seamans Book Number:</label>
-        <input
-          type="text"
-          name="seamans_book_number"
-          id="seamans_book_number"
-          placeholder="Luxembourg Seamansbook Number" 
-        />
-        <label for="seamans_book_expiry">Luxembourg Seamans book Expiry:</label>
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes"
+            name="LUX_seamans_book"
+            value="Yes"
+            required
+          />
+          <label for="yes">Yes, <em>provide expiry date</em></label>
+          <input
+            type="radio"
+            id="no"
+            name="LUX_seamans_book"
+            value="No"
+            required
+          />
+          <label for="no">No</label>
+        </div>
+        <br />
         <input
           type="date"
           name="seamans_book_expiry"
           id="seamans_book_expiry"
           placeholder="Luxembourg Seamansbook Expiry"
         />
+        <label for="seamans_book_number">Luxembourg Seamans Book Number:</label>
+        <input
+          type="text"
+          name="seamans_book_number"
+          id="seamans_book_number"
+          placeholder="Luxembourg Seamansbook Number"
+        />
+        <label for="certificate_competence"
+          >Do you hold a Certificate of Competence?</label
+        >
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_certificate_competence"
+            name="certificate_competence"
+            value="Yes"
+            required
+          />
+          <label for="yes_certificate_competence"
+            >Yes, provide expiry date:</label
+          >
+          <input
+            type="radio"
+            id="no_certificate_competence"
+            name="certificate_competence"
+            value="No"
+            required
+          />
+          <label for="no_certificate_competence">No</label>
+        </div>
+        <br />
+        <input
+          type="date"
+          name="certificate_of_competency_expiry"
+          id="certificate_of_competency_expiry"
+          placeholder="COC Expiry"
+        />
+        <label for="certificate_of_competence_Level"
+          >Level of Certificate of Competence</label
+        >
+        <select name="stcw_certificates" id="stcw_certificates">
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
+          <option value="OfficerICNavigationalWatcht">
+            Officer Navigational Watch, STCW II/1
+          </option>
+          <option value="OfficerICEngineeringWatch">
+            Officer Engineering Watch, STCW III/1
+          </option>
+          <option value="ChiefMate">Chief Mate, STCW II/2</option>
+          <option value="Master">Master, STCW II/2</option>
+          <option value="SecondEngineer">
+            Second Engineer Officer, STCW III/2
+          </option>
+          <option value="ChiefEngineer">
+            Chief Engineer Officer, STCW III/2
+          </option>
+          <option value="ETOfficer">
+            Electro-Technical Officer, STCW III/6
+          </option>
+          <option value="ETRating">Electro-Technical Rating, STCW III/7</option>
+          <option value="AbleSeafarerDeck">
+            Able Seafarer Deck, STCW II/5
+          </option>
+          <option value="AbleSeafarerEngine">
+            Able Seafarer Engine, STCW III/5
+          </option>
+          <option value="RatingNavigationalWatch">
+            Rating Navigational Watch, STCW II/4
+          </option>
+          <option value="RatingEngineeringWatch">
+            Rating Engineering Watch, STCW III/4
+          </option>
+          <option value="ShipCook">Ship Cook, MLC 2006</option>
+        </select>
         <label for="certificate_of_competency issueing country"
           >Certificate of Competency issueing Country:</label
         >
-        <select name="certificate_of_competency issueing country" id="certificate_of_competency issueing country" >
-          <option value="" disabled selected>--Please choose an option--</option>
+        <select
+          name="certificate_of_competency issueing country"
+          id="certificate_of_competency issueing country"
+        >
+          <option value="" disabled selected>
+            --Please choose an option--
+          </option>
           <option value="Afghanistan">Afghanistan</option>
           <option value="Albania">Albania</option>
           <option value="Algeria">Algeria</option>
@@ -1071,121 +1245,201 @@
           id="certificate_of_competency"
           placeholder="COC Number"
         />
-        <label for="certificate_of_competency_expiry"
-          >Certificate of Competency Expiry Date:</label
+        <label for="lux_endorsement"
+          >Do you hold a Luxembourg Endorsement?</label
         >
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_endorsement"
+            name="lux_endorsement"
+            value="Yes"
+            required
+          />
+          <label for="yes_endorsement">Yes, <em>provide expiry date</em></label>
+          <input
+            type="radio"
+            id="no_endorsement"
+            name="lux_endorsement"
+            value="No"
+            required
+          />
+          <label for="no_endorsement">No</label>
+        </div>
+        <br />
         <input
           type="date"
-          name="certificate_of_competency_expiry"
-          id="certificate_of_competency_expiry"
-          placeholder="COC Expiry"
+          name="lux_endorsement_expiry"
+          id="lux_endorsement_expiry"
+          placeholder="Luxembourg Endorsement Expiry"
         />
-          <label for="lux_endorsement">Do you hold a Luxembourg Endorsement?</label>
-          <div class="radio-group">
-              <input type="radio" id="yes_endorsement" name="lux_endorsement" value="Yes" required>
-              <label for="yes_endorsement">Yes</label>
-              <input type="radio" id="no_endorsement" name="lux_endorsement" value="No" required>
-              <label for="no_endorsement">No</label>
-          </div>
-          <label for="lux_endorsement_number">Luxembourg Endorsement Number:</label>
+        <label for="lux_endorsement_number"
+          >Luxembourg Endorsement Number:</label
+        >
         <input
           type="text"
-            name="lux_endorsement_number"
-            id="lux_endorsement_number"
-            placeholder="Luxembourg Endorsement Number"
+          name="lux_endorsement_number"
+          id="lux_endorsement_number"
+          placeholder="Luxembourg Endorsement Number"
         />
-          <label for="lux_endorsement_expiry">Luxembourg Endorsement Expiry Date:</label>
-        <input
-          type="date"
-            name="lux_endorsement_expiry"
-            id="lux_endorsement_expiry"
-            placeholder="Luxembourg Endorsement Expiry"
+        <label for="opito_bosiet">Do you hold a OPITO Bosiet/HUET/FUET?</label>
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_opito_bosiet"
+            name="opito_bosiet"
+            value="Yes"
+            required
           />
-          <label for="OPITO_Bosiet_HUET_FOET_Y_N">Do you hold a OPITO Bosiet/HUET/FUET?</label>
-          <div class="radio-group">
-            <input
-              type="radio"
-              id="yes_bosiet"
-              name="OPITO_Bosiet_HUET_FOET"
-              value="Yes"
-              required
-            />
-            <label for="yes_bosiet">Yes</label>
-            <input
-              type="radio"
-              id="no_bosiet"
-              name="OPITO_Bosiet_HUET_FOET"
-              value="No"
-              required
-        />
-            <label for="no_bosiet">No</label>
-          </div>
-        <label for="Bosiet/HUET/FOET Expiry Date"
-          >OPITO Bosiet/HUET/FOET Expiry Date:</label
-        >
+          <label for="yes_opito_bosiet"
+            >Yes, <em>provide expiry date</em></label
+          >
+          <input
+            type="radio"
+            id="no_opito_bosiet"
+            name="opito_bosiet"
+            value="No"
+            required
+          />
+          <label for="no_opito_bosiet">No</label>
+        </div>
+        <br />
         <input
           type="date"
-          name="Bosiet/HUET/FOET Expiry Date"
-          id="Bosiet/HUET/FOET Expiry Date"
+          name="opito_bosiet_expiry"
+          id="opito_bosiet_expiry"
+          placeholder="OPITO Bosiet/HUET/FUET Expiry"
         />
-        <label for="GWO_SeaSurvival_Y_N">Do you hold a GWO Sea Survival?</label>
-          <div class="radio-group">
-            <input
-              type="radio"
-              id="yes_gwo_sea_survival"
-              name="yes_gwo_sea_survival"
-              value="Yes"
-              required
-            />
-            <label for="yes_bosiet">Yes</label>
-            <input
-              type="radio"
-              id="no_gwo_sea_survival"
-              name="No_gwo_sea_survival"
-              value="No"
-              required/>
-            <label for="no_SeaSurvival">No</label>
-            </div>
-        <label for="GWO Sea Survival Expiry Date"
-          >GWO Sea Survival Expiry Date:</label
-        >
+        <label for="gwo_sea_survival">Do you hold a GWO Sea Survival?</label>
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_gwo_sea_survival"
+            name="gwo_sea_survival"
+            value="Yes"
+            required
+          />
+          <label for="yes_gwo_sea_survival"
+            >Yes, <em>provide expiry date</em></label
+          >
+          <input
+            type="radio"
+            id="no_gwo_sea_survival"
+            name="gwo_sea_survival"
+            value="No"
+            required
+          />
+          <label for="no_gwo_sea_survival">No</label>
+        </div>
+        <br />
         <input
           type="date"
-          name="GWO_Sea_Survival_ExpiryDate"
-          id="GWO_Sea_Survival_ExpiryDate"
+          name="gwo_sea_survival_expiry"
+          id="gwo_sea_survival_expiry"
+          placeholder="GWO Sea Survival Expiry"
         />
-        <label for="GWO_WorkingAtHeights_Y_N">Do you hold a GWO Working at Heights?</label>
-          <div class="radio-group">
-            <input
-              type="radio"
-              id="yes_gwo_working_at_heights"
-              name="yes_gwo_working_at_heights"
-              value="Yes"
-              required
-            />
-            <label for="yes_gwo_working_at_heights">Yes</label>
-            <input
-              type="radio"
-              id="no_gwo_working_at_heights"
-              name="no_gwo_working_at_heights"
-              value="No"
-              required/>
-            <label for="no_gwo_working_at_heights">No</label>
-            </div>
-        <label for="GWO Working at Heights Date"
-          >GWO Working at Heights Expiry Date:</label
+        <label for="gwo_working_heights"
+          >Do you hold a GWO Working at Heights?</label
         >
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_gwo_working_heights"
+            name="gwo_working_heights"
+            value="Yes"
+            required
+          />
+          <label for="yes_gwo_working_heights"
+            >Yes, <em>provide expiry date</em></label
+          >
+          <input
+            type="radio"
+            id="no_gwo_working_heights"
+            name="gwo_working_heights"
+            value="No"
+            required
+          />
+          <label for="no_gwo_working_heights">No</label>
+        </div>
+        <br />
         <input
           type="date"
-          name="GWO_Working_at_Heights_Expiry_Date"
-          id="GWO_Working_at_Heights_Expiry_Date"
+          name="gwo_working_heights_expiry"
+          id="gwo_working_heights_expiry"
+          placeholder="GWO Working at Heights Expiry"
         />
+        <label for="stcw_fast_rescue_crafts"
+          >Do you hold a STCW Proficiency in Fast Rescue Crafts?</label
+        >
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_stcw_fast_rescue_crafts"
+            name="stcw_fast_rescue_crafts"
+            value="Yes"
+            required
+          />
+          <label for="yes_stcw_fast_rescue_crafts"
+            >Yes, <em>provide expiry date</em></label
+          >
+          <input
+            type="radio"
+            id="no_stcw_fast_rescue_crafts"
+            name="stcw_fast_rescue_crafts"
+            value="No"
+            required
+          />
+          <label for="no_stcw_fast_rescue_crafts">No</label>
+        </div>
+        <br />
+        <input
+          type="date"
+          name="stcw_fast_rescue_crafts_expiry"
+          id="stcw_fast_rescue_crafts_expiry"
+          placeholder="STCW Proficiency in Fast Rescue Crafts Expiry"
+        />
+        <label for="helideck_certification">Do you hold a Helideck Certification?</label
+        >
+        <div class="radio-group">
+          <input
+            type="radio"
+            id="yes_helideck_certification"
+            name="helideck_certification"
+            value="Yes"
+            required
+          />
+          <label for="yes_helideck_certification"
+            >Yes, <em>provide expiry date</em>:</label
+          >
+          <input
+            type="radio"
+            id="no_helideck_certification"
+            name="helideck_certification"
+            value="No"
+            required
+          />
+          <label for="no_helideck_certification">No</label>
+        </div>
+          <br>
+          <input
+            type="date"
+            name="helideck_certification_expiry"
+            id="helideck_certification_expiry"
+            placeholder="Helideck Certification Expiry"
+          />
+        <label for="helideck_level">Select your highest level of Helideck Certification:</label>
+        <select name="helideck_level" id="helideck_level">
+          <option value="" disabled selected>--Please choose an option--</option>
+          <option value="HDA">HDA</option>
+          <option value="HERTM">HDA-HERTM</option>
+          <option value="HERTL">HLO-HERTL</option>
+          <option value="HERTL">HLO-HERTL-CAA</option>
+          <option value="HERTL">CAA</option>
+        </select>
         <label for="*Required fields"><em>* Required fields</em></label>
         <br />
         <h4>
-          Upon arriving at the vessel, kindly make your way to the bridge to
-          undergo your vessel induction and complete the required documentation.
-          The bridge team will also assign your cabin.
+          Upon arrival at the vessel, please proceed to the bridge to receive your vessel induction and complete the necessary paperwork. The bridge team will also assign your cabin.
         </h4>
         <input type="submit" value="Submit" style="height: auto" />
         <br />
