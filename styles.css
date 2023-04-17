@@ -119,18 +119,32 @@
     grid-column: 1 / -1;
   }
 
+  p {text-align: left;
+    color: red;
+    grid-column: 1 / -1;
+    font-family: Arial, sans-serif;}
+
   h4 {
     text-align: center;
-    color: white;
+    color: white ;
     grid-column: 1 / -1;
     font-family: Arial, sans-serif;
   }
+
   h3 {
     text-align: center;
     grid-column: 1 / -1;
   }
+
   h1 {
     text-align: center;
+  }
+
+  h2 {
+    text-align: left;
+    color:#00b455;
+    grid-column: 1 / -1;
+    font-family: Arial, sans-serif;
   }
 
   .text-block h4 {
@@ -186,7 +200,7 @@ input::placeholder {
       grid-template-columns: 1fr;
     }
 
-    h1, h3, h4 label {
+    h1, h2, h3, h4 label {
       font-size: 0.8em;
     }
 

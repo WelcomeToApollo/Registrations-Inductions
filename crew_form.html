@@ -12,15 +12,9 @@
     </div>
     <div class="form-wrapper">
       <form action="https://formspree.io/f/xqkogjnz" method="POST">
+        <form id="myForm">
         <h4>
-          Kindly fill out the mandatory fields in the form and provide as much
-          additional information as possible to ensure a seamless on-signing
-          process. It is crucial to complete not only the required fields in the
-          form but also to provide as much additional information as possible.
-          This extra information plays a vital role in streamlining the
-          on-signing process and ensuring a smooth, efficient experience for
-          both you and the bridge team. Your cooperation in furnishing these
-          details is greatly appreciated.
+          Please complete the required fields in the form and provide all relevant additional information to ensure a smooth on-signing process.
         </h4>
         <h3 style="color: white">Personal Details</h3>
         <label for="surname"
@@ -914,6 +908,8 @@
           <option value="Zambia">Zambia</option>
           <option value="Zimbabwe">Zimbabwe</option>
         </select>
+        <label for="*Required fields"><em>* Required fields</em></label>
+        <br>
         <h3 style="color: white">Certification</h3>
         <label for="seamans_book">Do you hold a Luxembourg Seamans book?</label>
         <div class="radio-group">
@@ -1427,7 +1423,7 @@
             id="helideck_certification_expiry"
             placeholder="Helideck Certification Expiry"
           />
-        <label for="helideck_level">Select your highest level of Helideck Certification:</label>
+        <label for="helideck_level">Highest level of your Helideck Certification:</label>
         <select name="helideck_level" id="helideck_level">
           <option value="" disabled selected>--Please choose an option--</option>
           <option value="HDA">HDA</option>
@@ -1436,13 +1432,21 @@
           <option value="HERTL">HLO-HERTL-CAA</option>
           <option value="HERTL">CAA</option>
         </select>
-        <label for="*Required fields"><em>* Required fields</em></label>
+        <label for="message">Remarks:</label>
+        <textarea
+        id="message"
+        name="message"
+        rows="5"
+        cols="50"
+        placeholder="Type your message here"></textarea>
         <br />
         <h4>
           Upon arrival at the vessel, please proceed to the bridge to receive your vessel induction and complete the necessary paperwork. The bridge team will also assign your cabin.
         </h4>
-        <input type="submit" value="Submit" style="height: auto" />
+        <div id="errorMessage" style="display: none; color: red;">* Please complete the required fields.</div>
+        <input type="submit" value="submit" id="submit" style="height: auto" />
         <br />
+      </form>
       </form>
     </div>
     <script src="script.js"></script>

@@ -97,3 +97,17 @@ document.addEventListener("DOMContentLoaded", function () {
     updateEndorsementRequired("yes_helideck_certification", "no_helideck_certification", "helideck_certification_expiry", "helideck_level");
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("myForm");
+    const errorMessage = document.getElementById("errorMessage");
+  
+    form.addEventListener("submit", function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        errorMessage.style.display = "block";
+      } else {
+        errorMessage.style.display = "none";
+      }
+    });
+  });
+  

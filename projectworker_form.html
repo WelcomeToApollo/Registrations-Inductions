@@ -13,14 +13,7 @@
     <div class="form-wrapper">
       <form action="https://formspree.io/f/xknapanb" method="post">
         <h4>
-          Kindly fill out the mandatory fields in the form and provide as much
-          additional information as possible to ensure a seamless on-signing
-          process. It is crucial to complete not only the required fields in the
-          form but also to provide as much additional information as possible.
-          This extra information plays a vital role in streamlining the
-          on-signing process and ensuring a smooth, efficient experience for
-          both you and the bridge team. Your cooperation in furnishing these
-          details is greatly appreciated.
+          Please complete the required fields in the form and provide all relevant additional information to ensure a smooth on-signing process.
         </h4>
         <h3 style="color: white">Personal Details</h3>
         <label for="surname">Surname(s) <em>(As appears on passport)</em>: *</label>
@@ -777,6 +770,8 @@
           <option value="Zambia">Zambia</option>
           <option value="Zimbabwe">Zimbabwe</option>
         </select>
+        <label for="*Required fields"><em>* Required fields</em></label>
+        <br>
         <h3 style="color: white">Certification</h3>
         <label for="opito_bosiet">Do you hold a OPITO Bosiet/HUET/FUET?</label>
         <div class="radio-group">
@@ -894,10 +889,16 @@
           id="gwo_manual_handling_expiry"
           placeholder="GWO Manual Handling Expiry"
         />
-        <label for="*Required fields"><em>* Required fields</em></label>
+        <label for="message">Remarks:</label>
+        <textarea
+        id="message"
+        name="message"
+        rows="5"
+        cols="50"
+        placeholder="Type your message here"></textarea>
         <br />
         <h4>
-          UUpon arrival at the vessel, please proceed to the bridge to receive your vessel induction and complete the necessary paperwork. The bridge team will also assign your cabin.
+          Upon arrival at the vessel, please proceed to the bridge to receive your vessel induction and complete the necessary paperwork. The bridge team will also assign your cabin.
         </h4>
         <input type="submit" value="Submit" style="height: auto" />
         <br />
