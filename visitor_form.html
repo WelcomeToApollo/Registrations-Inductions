@@ -12,7 +12,7 @@
       </div>
     <div class="form-wrapper">
       <form action="https://formspree.io/f/xwkjwjkn" method="post">
-      <h4>Please fill out and submit the form the day before your visit.</h4>
+      <h4>Please fill out and submit the form latest 1 day before your visit.</h4>
         <h3 style="color: white">Personal Details</h3>
         <label for="surname">Surname(s) <em>(As appears on passport)</em>: *</label>
         <input type="text" name="surname" id="surname" placeholder="Surname" required />
@@ -458,7 +458,13 @@
         </select>
         <label for="company">Company: * </label>
         <input type="text" name="Company" id="company" placeholder="Company" required>
-        <p><em>If you would like to have lunch on board, kindly mention it in the remarks section. Unannounced lunch requests cannot be accepted.</em></p>
+        <label for="Would you eat lunch on board?">Would you like to eat lunch on board? *</label>
+        <select name="Would you eat lunch on board?" id="" required>
+          <option value="" disabled selected>--Please choose an option--</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+        <p><em>We are unable to accommodate lunch requests that have not been previously communicated or scheduled.</em></p>
         <label for="message">Remarks:</label>
         <textarea
         id="message"
@@ -469,7 +475,7 @@
         <label for="*Required fields"><em>* Required fields</em></label>
         <br>
         <h4>Upon arriving at the vessel, kindly report to the gangway watch and fill out the visitor registration.</h4>
-        <input type="submit" value="Submit" style="height: auto" />
+        <input type="submit" value="Submit" class="button-link" style="height: auto" />
         <br />
       </form>
     </div>

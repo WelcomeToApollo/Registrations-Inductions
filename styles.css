@@ -49,6 +49,10 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+.button-link:active {
+  outline: 4px solid white;
+}
+
   .form-wrapper {
     background-color: rgba(30, 36, 88, 0.8);
     width: 50%;
@@ -190,7 +194,6 @@ input::placeholder {
   font-style: arial, sans-serif;
   opacity: 1;
 }
-
 
   @media (max-width: 1024px) {
     .form-wrapper {
