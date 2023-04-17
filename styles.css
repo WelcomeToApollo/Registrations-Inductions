@@ -40,11 +40,13 @@
     border-radius: 5px;
     cursor: pointer;
     grid-column: 1 / -1;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 .button-link:hover {
     background-color: #1e2458;
     outline: 1px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
   .form-wrapper {
@@ -198,6 +200,11 @@ input::placeholder {
 
     form {
       grid-template-columns: 1fr;
+    }
+
+    body {
+      background-color: #1e2458;
+      font-family: Arial, sans-serif;
     }
 
     h1, h2, h3, h4 label {
