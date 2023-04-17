@@ -14,17 +14,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const inputs = document.querySelectorAll('input[required]');
 
     form.addEventListener('submit', function(event) {
-        event.preventDefault();
+        let invalidInputs = false;
 
         inputs.forEach(input => {
             if (input.checkValidity()) {
                 input.style.border = '1px solid black';
             } else {
                 input.style.border = '2px solid red';
+                invalidInputs = true;
             }
         });
+
+        if (invalidInputs) {
+            event.preventDefault();
+        }
     });
 });
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const yesRadio = document.getElementById("yes");
