@@ -205,6 +205,7 @@ input::placeholder {
     body {
       background-color: #1e2458;
       font-family: Arial, sans-serif;
+      background-image: none;
     }
 
     h1, h2, h3, h4 label {
