@@ -116,4 +116,10 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  fetch('countries_dropdown.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('countries-dropdown').innerHTML = data;
+      });
   

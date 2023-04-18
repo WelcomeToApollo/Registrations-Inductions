@@ -75,6 +75,7 @@
 }
 
 .checkbox-container {
+  grid-column: 1 / -1;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -147,7 +148,7 @@
   }
 
   h2 {
-    text-align: left;
+    text-align: center;
     color:#00b455;
     grid-column: 1 / -1;
     font-family: Arial, sans-serif;
@@ -195,7 +196,15 @@ input::placeholder {
   opacity: 1;
 }
 
-  @media (max-width: 1024px) {
+@media (max-width: 1024px) {
+  body {
+    background-color: #1e2458;
+    font-family: Arial, sans-serif;
+    background-image: none;
+  }
+}
+
+  @media (max-width: 767px) {
     .form-wrapper {
       width: 90%;
       margin-top: 70px;

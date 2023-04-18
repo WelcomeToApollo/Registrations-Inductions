@@ -458,13 +458,15 @@
         </select>
         <label for="company">Company: * </label>
         <input type="text" name="Company" id="company" placeholder="Company" required>
-        <label for="Would you eat lunch on board?">Would you like to eat lunch on board? *</label>
-        <select name="Would you eat lunch on board?" id="" required>
+        <label for="Would you eat on board?">Would you like to have meals onboard? *</label>
+        <select name="Would you eat on board?" id="Eat on Board" required>
           <option value="" disabled selected>--Please choose an option--</option>
-          <option value="Yes">Yes</option>
           <option value="No">No</option>
+          <option value="Lunch">Lunch</option>
+          <option value="Lunch">Dinner</option>
+          <option value="Lunch">Lunch + Dinner</option>
         </select>
-        <p><em>We are unable to accommodate lunch requests that have not been previously communicated or scheduled.</em></p>
+        <p><em>We are unable to accommodate meal requests that have not been previously communicated or scheduled.</em></p>
         <label for="message">Remarks:</label>
         <textarea
         id="message"

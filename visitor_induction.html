@@ -40,33 +40,47 @@
       I am aware about the actions I have to take i case of Emergency.
   </label>
     </div>
+    <div class="checkbox-container">
     <label for="checkbox1" class="full-width">
         <input type="checkbox" id="checkbox1" name="I am aware of the minimum PPE on board." required>
         I am aware of the minimum Required PPE on board.
     </label>
+  </div>
+    <div class="checkbox-container">
     <label for="checkbox1" class="full-width">
         <input type="checkbox" id="checkbox1" name="I am aware about the company policies and/or I know where I can find them." required>
         I am aware about the company policies and/or I know where I can find them.
     </label>
+  </div>
+    <div class="checkbox-container">
     <label for="checkbox1" class="full-width">
         <input type="checkbox" id="checkbox1" name="I am aware that I have the right and duty to stop unsafe actions, and will inform the bridge, STOP WORK AUTORITY" required>
         I am aware that I have the right and duty to stop unsafe actions, STOP WORK AUTORITY.
     </label>
+  </div>
+    <div class="checkbox-container">
     <label for="checkbox1" class="full-width">
       <input type="checkbox" id="checkbox1" name="I am aware that Smoking is only allowed in the designated smoking areas" required>
       I am aware that Smoking is only allowed in the designated smoking areas.
   </label>
+</div>
+  <div class="checkbox-container">
     <label for="checkbox1" class="full-width">
       <input type="checkbox" id="checkbox1" name="I am aware that I am not allowed to enter Restricted Areas without presence of the Crew." required>
       I am aware that am I not allowed to enter Restricted Areas without presence of the Crew.
   </label>
+</div>
+  <div class="checkbox-container">
   <label for="checkbox1" class="full-width">
     <input type="checkbox" id="checkbox1" name="I am aware that PPE is strictly prohibited inside the accomodation." required>
     I am aware that PPE is strictly prohibited inside the accomodation.
 </label>
+</div>
+<div class="checkbox-container">
   <label for="checkbox1" class="full-width">
     <input type="checkbox" id="checkbox1" name="I will respect the house rules on the Apollo." required>
     I am aware of the house rules of the Apollo and will respect them.
+    </div>
 </label>
       <h2>3. Please fill out your personal details.</h2>
         <h3 style="color: white">Personal Details</h3>
@@ -514,13 +528,15 @@
         </select>
         <label for="company">Company: * </label>
         <input type="text" name="Company" id="company" placeholder="Company" required>
-        <label for="Would you eat lunch on board?">Would you like to eat lunch on board? *</label>
-        <select name="Would you eat lunch on board?" id="" required>
+        <label for="Would you eat on board?">Would you like to have meals onboard? *</label>
+        <select name="Would you eat on board?" id="Eat on Board" required>
           <option value="" disabled selected>--Please choose an option--</option>
-          <option value="Yes">Yes</option>
           <option value="No">No</option>
+          <option value="Lunch">Lunch</option>
+          <option value="Lunch">Dinner</option>
+          <option value="Lunch">Lunch + Dinner</option>
         </select>
-        <p><em>We are unable to accommodate lunch requests that have not been previously communicated or scheduled.</em></p>
+        <p><em>We are unable to accommodate meal requests that have not been previously communicated or scheduled.</em></p>
         <label for="message">Remarks:</label>
         <textarea
         id="message"
