@@ -11,8 +11,7 @@
       <h1>APOLLO Registration CREW</h1>
     </div>
     <div class="form-wrapper">
-      <form action="https://formspree.io/f/xqkogjnz" method="POST">
-        <form id="myForm">
+      <form action="https://formsubmit.co/crewing.apollo@gmail.com" method="POST">
         <h4>
           Please complete the required fields in the form and provide all relevant additional information to ensure a smooth on-signing process.
         </h4>
@@ -32,7 +31,7 @@
         >
         <input
           type="text"
-          name="Firstname"
+          name="First_name"
           id="firstname"
           placeholder="First Names"
           required
@@ -40,7 +39,7 @@
         <label for="date_of_birth">Date of Birth: *</label>
         <input
           type="date"
-          name="Date_of_birth"
+          name="date_of_birth"
           id="date_of_birth"
           placeholder="Date of Birth"
           required
@@ -48,22 +47,22 @@
         <label for="place_of_birth">Place of Birth: *</label>
         <input
           type="text"
-          name="Place_of_birth"
+          name="place_of_birth"
           id="place_of_birth"
           placeholder="Place of Birth"
           required
         />
         <label for="Gender">Gender: *</label>
-        <select name="Gender" id="Gender" required>
+        <select name="gender" id="Gender" required>
           <option value="" disabled selected>
             --Please choose an option--
           </option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
         </select>
         <label for="nationality">Nationality: *</label>
         <select
-          name="Nationality"
+          name="nationality"
           id="Nationality"
           placeholder="Nationality"
           required
@@ -291,7 +290,7 @@
         <label for="passport_validity">Passport Validity: *</label>
         <input
           type="date"
-          name="passport_validity"
+          name="passport_expiry"
           id="passport_validity"
           placeholder="Passport Expiry Date"
           required
@@ -300,7 +299,7 @@
           >Passport Issuing Country: *</label
         >
         <select
-          name="passport-issuing-country"
+          name="passport-country"
           id="passport-issuing-country"
           required
         >
@@ -521,13 +520,13 @@
         >
         <input
           type="date"
-          name="medical_exam_expiry date"
+          name="medex_expiry_date"
           id="medical_exam_expiry date"
           placeholder="Medical Exam Expiry Date"
           required
         />
         <label for="function_on_board">Function on board: *</label>
-        <select name="function_on_board" id="function_on_board" required>
+        <select name="function" id="function_on_board" required>
           <option value="" disabled selected>
             --Please choose an option--
           </option>
@@ -558,13 +557,13 @@
         <label for="date of On-Signing">Date of On-Signing: *</label>
         <input
           type="date"
-          name="date_of_on-signing"
+          name="date_on_sign"
           id="date_of_on-signing"
           placeholder="Date of on-signing"
           required
         />
         <label for="first time on APOLLO">First time on APOLLO: *</label>
-        <select name="first time on APOLLO" id="first time on APOLLO" required>
+        <select name="first_time" id="first time on APOLLO" required>
           <option value="" disabled selected>
             --Please choose an option--
           </option>
@@ -574,18 +573,18 @@
         <label for="prescribed_medicines"
           >Medical condition or prescribed medicines?: *</label
         >
-        <select name="prescribed_medicines" id="prescribed_medicines" required>
+        <select name="medical_state_medicines" id="prescribed_medicines" required>
           <option value="" disabled selected>
             --Please choose an option--
           </option>
           <option value="yes">
-            Yes, <em>(Report to medical officer on board)</em>
+            Yes, <em>Report to medical officer on board</em>
           </option>
           <option value="no">No</option>
         </select>
 
         <label for="Company">Company <em>(Type of contract)</em>: * </label>
-        <select name="Company" id="Company" required>
+        <select name="company_contract" id="Company" required>
           <option value="" disabled selected>
             --Please choose an option--
           </option>
@@ -610,21 +609,21 @@
         <br />
         <input
           type="text"
-          name="other contract"
+          name="other_contract"
           id="other contract"
           placeholder="Other contract"
         />
         <label for="Deme_Employee_Number">Deme Employee Number:</label>
         <input
           type="text"
-          name="Deme_Employee_Number"
+          name="employee_number"
           id="Deme_Employee_Number"
           placeholder="Deme Employee Number"
         />
         <label for="phone number">Phone Number:</label>
         <input
           type="tel"
-          name="phone number"
+          name="phone"
           id="phone number"
           placeholder="Phone Number"
         />
@@ -640,7 +639,7 @@
         <label for="next_of_kin_surname">Surname: *</label>
         <input
           type="text"
-          name="next_of_kin_surname"
+          name="nok_surname"
           id="next_of_kin_surname"
           placeholder="Surname"
           required
@@ -648,7 +647,7 @@
         <label for="next_of_kin_name">First Name: *</label>
         <input
           type="text"
-          name="next_of_kin_firstname"
+          name="nok_firstname"
           id="next_of_kin_firstname"
           placeholder="First Name"
           required
@@ -656,7 +655,7 @@
         <label for="next_of_kin_relation">Relation: *</label>
         <input
           type="text"
-          name="next_of_kin_relation"
+          name="nok_relation"
           id="next_of_kin_relation"
           placeholder="Relation"
           required
@@ -664,7 +663,7 @@
         <label for="next next_of_kin_phone">Phone Number: *</label>
         <input
           type="tel"
-          name="next next_of_kin_phone"
+          name="nok_phone"
           id="next next_of_kin_phone"
           placeholder="Phone Number"
           required
@@ -697,7 +696,7 @@
         <input type="text" name="city" id="city" placeholder="City" />
 
         <label for="country">Country: *</label>
-<select name="Country" id="Country" required>
+<select name="nok_country" id="Country" required>
     <option value="" disabled selected>
       --Please choose an option--
     </option>
@@ -918,7 +917,7 @@
           <input
             type="radio"
             id="yes"
-            name="LUX_seamans_book"
+            name="lux_smb_yes"
             value="Yes"
             required
           />
@@ -926,7 +925,7 @@
           <input
             type="radio"
             id="no"
-            name="LUX_seamans_book"
+            name="lux_smb_no"
             value="No"
             required
           />
@@ -935,7 +934,7 @@
         <br />
         <input
           type="date"
-          name="seamans_book_expiry"
+          name="lux_smb_expiry"
           id="seamans_book_expiry"
           placeholder="Luxembourg Seamansbook Expiry"
         />
@@ -1445,11 +1444,10 @@
         <h4>
           Upon arrival at the vessel, please proceed to the bridge to receive your vessel induction and complete the necessary paperwork. The bridge team will also assign your cabin.
         </h4>
-        <input type="submit" value="submit" id="submit" class="button-link" style="height: auto" />
-        <br />
+        <input type="submit" value="submit" id="submit" class="button-link" style="height: auto"/>
+        <br/>
       </form>
-      </form>
-    </div>
+      </div>
     <script src="script.js"></script>
   </body>
 </html>
