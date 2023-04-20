@@ -25,11 +25,12 @@
         <label for="place_of_birth">Place of Birth: *</label>
         <input type="text" name="Place_of_birth" id="place_of_birth" placeholder="Place of Birth" required />
         <label for="Gender">Gender: *</label>
-        <select name="Gender" id="Gender" required>
-          <option value="" disabled selected>--Please choose an option--</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
+        <div class="radio-group">
+          <input type="radio" id="male" name="gender" value="Male" required />
+          <label for="male">Male</label><br />
+          <input type="radio" id="female" name="gender" value="Female" />
+          <label for="female">Female</label>
+        </div>
         <label for="nationality">Nationality: *</label>
         <select name="Nationality" id="Nationality" placeholder="Nationality" required>
           <option value="" disabled selected>--Please choose an option--</option>
