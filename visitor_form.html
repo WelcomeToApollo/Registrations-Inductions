@@ -460,6 +460,8 @@
         </select>
         <label for="company">Company: * </label>
         <input type="text" name="Company" id="company" placeholder="Company" required>
+        <label for="email">Email: *</label>
+      <input type="email" name="email" id="email" placeholder="Email" required />
         <label for="Would you eat on board?">Would you like to have meals onboard? *</label>
         <select name="Would you eat on board?" id="Eat on Board" required>
           <option value="" disabled selected>--Please choose an option--</option>
@@ -485,6 +487,7 @@
         </div>
         <h4>Upon arriving at the vessel, kindly report to the gangway watch and fill out the visitor registration.</h4>
         <input type="submit" value="Submit" class="button-link" style="height: auto" />
+        <input type="hidden" name="_next" value="thank-you.html">
         <br />
       </form>
     </div>
